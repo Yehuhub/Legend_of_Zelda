@@ -57,7 +57,7 @@ The game features an open-world design with no specific level structure, allowin
 
 #### 
 ```sh
-git clone https://github.com/YuvalHasson/oop2_Legend_of_Zelda.git
+git clone https://github.com/Yehuhub/Legend_of_Zelda.git
 cd Legend_of_Zelda
 mkdir build && cd build
 cmake ..
