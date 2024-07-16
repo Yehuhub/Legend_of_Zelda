@@ -1,7 +1,10 @@
 # Copy SFML-related DLLs to the target folder
 if(WIN32)
-  configure_file ("${SFML_LOCATION}/bin/openal32.dll" ${CMAKE_BINARY_DIR} COPYONLY)
-  
+	if(NOT SFML_FOUND)
+		configure_file ("${sfml_SOURCE_DIR}/extlibs/bin/x64/openal32.dll" ${CMAKE_BINARY_DIR} COPYONLY)
+	else()
+		configure_file ("${SFML_LOCATION}/bin/openal32.dll" ${CMAKE_BINARY_DIR} COPYONLY)
+	endif()
 
 endif()
 
