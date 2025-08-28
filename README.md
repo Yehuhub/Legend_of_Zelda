@@ -1,5 +1,5 @@
 # The Legend Of Zelda Clone
-Our rendition of the classic game made using C++ and SFML as graphics library.<br />This rendition of the game was made as part of a Object-Oriented-Programming course at Hadssah Academic College, Jerusalem, IL.
+Our rendition of the classic game made using C++ and SFML as graphics library.<br />
 ### Game Description
 The player's goal is to navigate through dungeons filled with puzzles and enemies.<br />The first, is a mandatory dungeon and rewards the player with a sword, essential for progressing to the optional next dungeon, where a powerful bow awaits.<br />Ultimately, the game concludes with a battle against the evil wizard, whose defeat marks the end of game.
 
