@@ -73,4 +73,3 @@ make
 ## Credits:
 - SFML
 - Noam Debel for making the overview video
-- Hadassah Academic College
